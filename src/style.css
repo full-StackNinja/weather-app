@@ -88,7 +88,8 @@ label {
   color: #334155;
 }
 
-.name, .country {
+.name,
+.country {
   text-align: center;
   line-height: 1;
 }
@@ -106,4 +107,10 @@ label {
   display: flex;
   justify-content: space-between;
   /* font-weight: bold; */
+}
+
+.error-message {
+  width: 300rem;
+  margin: auto;
+  color: #dc2626;
 }
