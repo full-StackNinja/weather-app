@@ -1,5 +1,3 @@
-import domManipulation from "./domManipulation";
-
 export default (function weatherApi() {
   const weatherAPIKey = process.env.WEATHER_API_KEY;
   const locationData = {};
@@ -9,10 +7,8 @@ export default (function weatherApi() {
     const location = searchField.value;
     const url = `https://api.weatherapi.com/v1/current.json?key=${weatherAPIKey}&q=${location}`;
     const response = await fetch(url);
-    console.log("response", response.status);
     if (response.status === 200) {
       const data = await response.json();
-      console.log("data", data);
       locationData.location = data.location;
       locationData.current = data.current;
     } else {
