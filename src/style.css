@@ -1,0 +1,107 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #1e293b;
+}
+
+html {
+  font-size: 1px;
+}
+
+body {
+  font-size: 16rem;
+}
+
+
+.header {
+  height: 70rem;
+  background-color: #64748b;
+}
+
+.app-name {
+  margin: 20rem;
+}
+
+h1 {
+  color: #854d0e;
+  font-style: italic;
+}
+
+a{
+  text-decoration-line: none;
+  color: #22d3ee;
+  font-style: italic;
+
+}
+
+.search-box {
+  margin: 50rem auto;
+  width: fit-content;
+}
+
+label {
+  display: block;
+  font-size: 24rem;
+  margin-bottom: 5rem;
+  font-weight: bold;
+}
+
+#location-field {
+  height: 32rem;
+  width: 250rem;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5rem;
+  /* background-color: #ccc; */
+  padding: 3rem;
+}
+
+.search{
+  background-color: #71717a;
+  color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5rem;
+  height: 32rem;
+  padding: 0 15rem;
+  line-height: 18rem;
+  vertical-align: middle;
+  cursor: pointer;
+  /* box-sizing: border-box; */
+  width: 70rem;
+}
+
+.search:hover{
+  border: 1rem solid #fca5a5;
+}
+
+.weather-data{
+  line-height: 1.5;
+  font-size: large;
+  height: 0;
+  overflow: hidden;
+  margin: auto;
+  max-width: 300rem;
+  transition: height 0.3s ease-in-out;
+
+}
+
+.name{
+  text-align: center;
+}
+
+.condition{
+  display: block;
+  text-align: center;
+  margin-bottom: 20rem;
+}
+
+.display-data{
+  height: 300rem;
+}
+
+p{
+  display: flex;
+  justify-content:space-between;
+}
